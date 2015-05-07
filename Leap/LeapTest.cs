@@ -1,4 +1,3 @@
-using Leap;
 using NUnit.Framework;
 
 [TestFixture]

@@ -4,21 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leap
+public class Year
 {
-    public class Year
+    public static bool IsLeap(int yearNumber)
     {
-        public static bool IsLeap(int yearNumber) 
+        if (yearNumber % 400 == 0)
         {
-            if (yearNumber % 400 == 0) {
-                return true;
-            }
-
-            if (yearNumber % 100 == 0) {
-                return false;
-            }
-
-            return yearNumber % 4 == 0;
+            return true;
         }
+
+        if (yearNumber % 100 == 0)
+        {
+            return false;
+        }
+
+        return yearNumber % 4 == 0;
     }
 }
