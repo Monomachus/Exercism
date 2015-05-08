@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{128A0BD0-E339-4D88-8B15-07940191013D}</ProjectGuid>
+    <ProjectGuid>{C3D76CB2-6738-47C5-8B08-DD890CE73113}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Leap</RootNamespace>
-    <AssemblyName>Leap</AssemblyName>
+    <RootNamespace>Bob</RootNamespace>
+    <AssemblyName>Bob</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LeapTest.cs" />
+    <Compile Include="Bob.cs" />
+    <Compile Include="BobTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Year.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
